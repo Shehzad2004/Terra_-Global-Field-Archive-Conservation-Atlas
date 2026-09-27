@@ -1,0 +1,6 @@
+{
+  "name": "Terra — Global Field Archive & Conservation Atlas",
+  "description": "An editorial nature-documentary archive, interactive continental biosphere map, IUCN endangered species database, and real-time field photography journal.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, Cambria, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F7F4EE;
+    color: #1C1917;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom subtle styling for Leaflet map containers in editorial theme */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background-color: #E6E1D6;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #F7F4EE;
+  color: #1C1917;
+  border-radius: 8px;
+  border: 1px solid #D6CEBE;
+  box-shadow: 0 10px 25px -5px rgba(28, 25, 23, 0.15);
+}
+
+.leaflet-popup-tip {
+  background-color: #F7F4EE;
+}
